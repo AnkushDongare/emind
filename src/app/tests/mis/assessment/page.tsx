@@ -26,7 +26,7 @@ export default function Assessment() {
     const [responses, setResponses] = useState<Responses>({});
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [test, setTest] = useState<Test | null>(null);
-    const [lang, setLang] = useState(null);
+    const [lang, setLang] = useState<string | null>(null);
     const router = useRouter();
     
     useEffect(() => {
