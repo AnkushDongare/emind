@@ -3,7 +3,7 @@ import { SetStateAction, useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function DPITestInstructions() {
-    const [language, setLanguage] = useState('marathi'); // Default to Marathi or any initial value
+    const [language, setLanguage] = useState<string>('english');
     const router = useRouter();
 
     const handleLanguageChange = (e: { target: { value: SetStateAction<string>; }; }) => {
