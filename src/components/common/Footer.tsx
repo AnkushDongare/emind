@@ -36,7 +36,7 @@ const Footer = () => {
                     <h2 className="text-lg font-semibold mb-4">More Links</h2>
                     <ul>
                         <li><a href="/team" className="text-sm hover:underline">Our Team</a></li>
-                        <li><a href="tests" className="text-sm hover:underline">Buy Test</a></li>
+                        <li><a href="tests" className="text-sm hover:underline">Take a Test Now</a></li>
                         <li><a href="book-appointment" className="text-sm hover:underline">Book Appointment</a></li>
                     </ul>
                 </div>

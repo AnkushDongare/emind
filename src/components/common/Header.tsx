@@ -13,7 +13,7 @@ const navigation = [
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contact' },
     { name: 'Book Appointment', href: '/book-appointment' },
-    { name: 'Buy Test', href: '/tests' },
+    { name: 'Take a Test Now', href: '/tests' },
 ]
 
 export default function Header() {

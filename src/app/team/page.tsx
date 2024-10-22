@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import TeamComponent from "./TeamComponent"
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://theschoolacademy.in'),
-    generator: 'theschoolacademy.in',
-    applicationName: 'The School Academy',
+    metadataBase: new URL('https://emindcafe.com'),
+    generator: 'emindcafe.com',
+    applicationName: 'eMind Cafe',
     referrer: 'origin-when-cross-origin',
     keywords: ['Education', 'Team', 'Staff', 'Our Team'],
     authors: [
@@ -18,25 +18,25 @@ export const metadata: Metadata = {
         telephone: false,
     },
     title: {
-        default: 'Our Team | The School Academy',
-        template: '%s | The School Academy',
+        default: 'Our Team | eMind Cafe',
+        template: '%s | eMind Cafe',
     },
-    description: 'Meet the dedicated team behind The School Academy. Learn more about our staff and their commitment to providing exceptional educational services.',
+    description: 'Meet the dedicated team behind eMind Cafe. Learn more about our staff and their commitment to providing exceptional educational services.',
     alternates: {
         canonical: '/team',
     },
     openGraph: {
         title: {
-            default: 'Our Team | The School Academy',
-            template: '%s | The School Academy',
+            default: 'Our Team | eMind Cafe',
+            template: '%s | eMind Cafe',
         },
         type: 'website',
-        description: 'Meet the dedicated team behind The School Academy. Learn more about our staff and their commitment to providing exceptional educational services.',
-        url: 'https://theschoolacademy.in/team',
-        siteName: 'The School Academy',
+        description: 'Meet the dedicated team behind eMind Cafe. Learn more about our staff and their commitment to providing exceptional educational services.',
+        url: 'https://emindcafe.com/team',
+        siteName: 'eMind Cafe',
         images: [
             {
-                url: 'https://theschoolacademy.in/og-team.png', // Use a specific image for the Team page
+                url: 'https://emindcafe.com/og-team.png', // Use a specific image for the Team page
                 width: 1200,
                 height: 630,
             },
@@ -46,12 +46,12 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: {
-            default: 'Our Team | The School Academy',
-            template: '%s | The School Academy',
+            default: 'Our Team | eMind Cafe',
+            template: '%s | eMind Cafe',
         },
-        description: 'Meet the dedicated team behind The School Academy. Learn more about our staff and their commitment to providing exceptional educational services.',
+        description: 'Meet the dedicated team behind eMind Cafe. Learn more about our staff and their commitment to providing exceptional educational services.',
         images: [
-            'https://theschoolacademy.in/twitter-team-image.jpeg', // Use a specific image for the Team page
+            'https://emindcafe.com/twitter-team-image.jpeg',
         ],
     },
 };
