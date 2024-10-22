@@ -28,7 +28,7 @@ export default function Hero() {
                                 Schedule an Appointment
                             </a>
                             <a href="/tests" className="text-sm font-semibold leading-6 text-gray-900">
-                                Buy a Test <span aria-hidden="true">→</span>
+                                Take a Test <span aria-hidden="true">→</span>
                             </a>
                         </div>
                     </div>

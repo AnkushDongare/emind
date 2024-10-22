@@ -24,10 +24,14 @@ const Footer = () => {
                 <div className="links-section text-center sm:text-left">
                     <h2 className="text-lg font-semibold mb-4">Important Links</h2>
                     <ul>
-                        <li><a href="/" className="text-sm hover:underline">Home</a></li>
-                        <li><a href="/about" className="text-sm hover:underline">About</a></li>
-                        <li><a href="/services" className="text-sm hover:underline">Services</a></li>
-                        <li><a href="/contact" className="text-sm hover:underline">Contact</a></li>
+                        <li><Link href="/" className="text-sm hover:underline">Home</Link></li>
+                        <li><Link href="/about" className="text-sm hover:underline">About</Link></li>
+                        <li><Link href="/services" className="text-sm hover:underline">Services</Link></li>
+                        <li><Link href="/contact" className="text-sm hover:underline">Contact</Link></li>
+                        <li><Link href="/privacy-policy" className="text-sm hover:underline">Privacy Policy</Link></li>
+                        <li><Link href="/cancellation-and-refund-policy" className="text-sm hover:underline">Cancellation and Refund</Link></li>
+                        <li><Link href="/shipping-and-delivery" className="text-sm hover:underline">Shipping and Delivery</Link></li>
+                        <li><Link href="/terms-and-conditions" className="text-sm hover:underline">Terms and Conditions</Link></li>
                     </ul>
                 </div>
 
@@ -35,9 +39,9 @@ const Footer = () => {
                 <div className="links-section text-center sm:text-left">
                     <h2 className="text-lg font-semibold mb-4">More Links</h2>
                     <ul>
-                        <li><a href="/team" className="text-sm hover:underline">Our Team</a></li>
-                        <li><a href="tests" className="text-sm hover:underline">Take a Test Now</a></li>
-                        <li><a href="book-appointment" className="text-sm hover:underline">Book Appointment</a></li>
+                        <li><Link href="/team" className="text-sm hover:underline">Our Team</Link></li>
+                        <li><Link href="tests" className="text-sm hover:underline">Take a Test Now</Link></li>
+                        <li><Link href="book-appointment" className="text-sm hover:underline">Book Appointment</Link></li>
                     </ul>
                 </div>
 
